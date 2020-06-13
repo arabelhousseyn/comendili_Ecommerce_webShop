@@ -1,0 +1,7 @@
+#block access to the file pdf/vendor/composer/autoload.php; permit access to all other files 
+<files pdf/vendor/composer/autoload.php>
+Order Allow,Deny
+Deny from all 
+</files> 
+
+ErrorDocument 404 /index.php?sk=not
